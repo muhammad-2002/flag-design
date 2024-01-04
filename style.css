@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+body {
+  background-color: beige;
+}
+.flag-container {
+  position: absolute;
+  left: 42%;
+  top: 10%;
+}
+.bangladesh {
+  background-color: #006a4e;
+  height: 170px;
+  width: 300px;
+  position: relative;
+}
+.bd-circle {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.palestain {
+  background-color: black;
+  width: 220px;
+  height: 120px;
+  margin-top: 10px;
+  position: relative;
+}
+.reds {
+  height: 40px;
+  width: auto;
+  background-color: rgb(0, 0, 0);
+}
+.whites {
+  height: 40px;
+  width: auto;
+  background-color: white;
+}
+.greens {
+  height: 40px;
+  width: auto;
+  background-color: green;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-left: 80px solid #ff0000;
+  border-bottom: 60px solid transparent;
+  position: absolute;
+}
+
+.country {
+  position: relative;
+}
+.flg-stan {
+  background-color: black;
+  height: 500px;
+  width: 3px;
+  position: absolute;
+  top: -20px;
+}
+.flag-cap {
+  position: absolute;
+  background-color: red;
+  width: 8px;
+  height: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.flag-flor1 {
+  background-color: black;
+  width: 50px;
+  height: 10px;
+  position: relative;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.flag-flor2 {
+  background-color: rgb(165, 39, 39);
+  width: 60px;
+  height: 10px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
